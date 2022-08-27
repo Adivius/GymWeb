@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <item
+        android:title="Übersicht">
+        <menu>
+
+            <item
+                android:id="@+id/nav_menu_home"
+                android:title="Start"
+                android:icon="@drawable/ic_home"/>
+            <item
+                android:id="@+id/nav_menu_subject"
+                android:title="Fächer"
+                android:icon="@drawable/ic_subject"/>
+            <item
+                android:id="@+id/nav_menu_time"
+                android:title="Stundenplan"
+                android:icon="@drawable/ic_day"/>
+            <item
+                android:id="@+id/nav_menu_work"
+                android:title="Termine &amp; Klausuren"
+                android:icon="@drawable/ic_library"/>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:title="Anderes">
+        <menu>
+            <item
+                android:id="@+id/nav_menu_share"
+                android:title="Teilen"
+                android:icon="@drawable/ic_share"/>
+            <item
+                android:id="@+id/nav_menu_rate"
+                android:title="Bewerten"
+                android:icon="@drawable/ic_rate"/>
+            <item
+                android:id="@+id/nav_menu_settings"
+                android:title="Einstellungen"
+                android:icon="@drawable/ic_settings"/>
+        </menu>
+    </item>
+
+
+</menu>

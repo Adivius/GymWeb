@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp">
+
+
+    <TextView
+        android:id="@+id/job_list_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="16dp"
+        android:text="Fach"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/job_list_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Schriftliche Überprüfung"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/job_list_subject"
+        app:layout_constraintTop_toBottomOf="@+id/job_list_subject" />
+
+    <TextView
+        android:id="@+id/job_list_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abgabedatum"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/job_list_type"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="@+id/job_list_type" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="230dp" />
+
+    <TextView
+        android:id="@+id/job_list_topic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="16dp"
+        android:text="Kein Thema"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/job_list_subject"
+        app:layout_constraintTop_toBottomOf="@+id/job_list_type" />
+</androidx.constraintlayout.widget.ConstraintLayout>

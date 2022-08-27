@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="primary">#AC3434</color>
+    <color name="secondary">#FFFFFF</color>a
+    <color name="third">#FFFFFF</color>
+
+    <color name="black">#111111</color>
+    <color name="white">#ffffff</color>
+
+    <color name="lime">@android:color/holo_green_light</color>
+    <color name="gray">#424242</color>
+
+
+
+</resources>
