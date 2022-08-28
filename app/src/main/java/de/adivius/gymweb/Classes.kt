@@ -86,7 +86,7 @@ fun selectDate(context: Context, autoCompleteTextView: AutoCompleteTextView){
         //month
         val valM = mMonth + 1
         var nMonth: String = if (valM.toString().length == 1) "0$valM" else valM.toString()
-        //finnish
+        //finish
         autoCompleteTextView.setText("$nDay.$nMonth.$mYear")
     }, tYear().toInt(), tMonth().toInt()-1, tDay().toInt()).show()
 
